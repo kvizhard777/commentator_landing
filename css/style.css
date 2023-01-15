@@ -1,0 +1,191 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.big {
+    font-weight: 800;
+}
+
+body {
+    background-color: #131313;
+}
+
+/* Header */
+
+.header {
+    background-color: #131313;
+}
+
+/* Header Nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.nav__menu-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.nav__menu-link {
+    color: #fff;
+
+    transition: 0.2s ease-in;
+}
+
+.nav__menu-link:hover {
+    color: #ccc;
+    border-bottom: 2px solid #0e6eff;
+    padding-bottom: 5px;
+
+    transition: 0.2s ease-in;
+}
+
+.nav__menu-btn {
+    display: block;
+    border: 2px solid #0e6eff;
+    border-radius: 10px;
+    padding: 10px 35px;
+
+    font-weight: 600;
+
+    color: #fff;
+
+    transition: 0.2s ease-in;
+}
+
+.nav__menu-btn:hover {
+    transition: 0.2s ease-in;
+    background-color: #0e6eff;
+}
+
+.logo {
+    position: relative;
+    margin-left: -150px;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    color: #fff;
+}
+
+/* Header Main */
+
+.main {
+    background-color: #131313;
+}
+
+/* Main Wrapper */
+
+.main__wrapper {
+    display: flex;
+    margin: 0 auto;
+
+    width: 1150px;
+    height: 512px;
+    border-radius: 20px;
+
+    background-color: #1d1d1d;
+}
+
+/* Main Wrapper Main */
+
+.main__wrapper-main {
+    max-width: 650px;
+    padding: 140px 70px 0;
+}
+
+.main__wrapper-title {
+    font-size: 35px;
+
+    color: #fff;
+}
+
+.main__wrapper-title-span {
+    color: #0e6eff;
+}
+
+.main__wrapper-text {
+    margin-top: 15px;
+
+    font-size: 9px;
+    font-weight: 300;
+
+    color: #cbcbcb;
+}
+
+.main__menu-btn {
+    display: block;
+    border: 2px solid #0e6eff;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px 35px;
+    width: 162px;
+
+    font-size: 24px;
+    font-weight: 600;
+
+    color: #fff;
+
+    transition: 0.2s ease-in;
+}
+
+.main__menu-btn:hover {
+    transition: 0.2s ease-in;
+    background-color: #0e6eff;
+}
+
+/* Main Wrapper Img */
+
+.main__wrapper-img {
+    margin-left: 50px;
+    padding-top: 20px;
+
+    width: 350px;
+    height: 450px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* Benefits */
+
+.main__wrapper-main-benefits {
+    max-width: 650px;
+
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.main__wrapper-main-benefits-span {
+    color: #0e6eff;
+}
+
+/* Contacts */
+
+.main__wrapper-main-tg {
+    max-width: 650px;
+
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.main__wrapper-main-tg-span {
+    color: #0e6eff;
+}
